@@ -1,0 +1,244 @@
+/* CU Marketing Services */
+
+/* Universal */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
+  transition: 0.25s;
+}
+
+/* Generic */
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+button {
+  margin: 0.5rem;
+}
+
+i {
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #90ee90;
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  border-radius: 100rem;
+  padding: 0.5rem;
+  background-color: #90ee90;
+  min-height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover,
+button:active {
+  background-color: #1ec677;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  color: #000000;
+}
+
+/* Beader */
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #000000;
+  width: 100%;
+  color: #21b46f;
+}
+
+.header__content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.header__title {
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+  color: #1ec677;
+}
+
+.header__nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header__link {
+  color: #f5f5f5;
+}
+
+/* Main */
+.main {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+/* Footer */
+.footer {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* Page */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Page Section */
+.page-section {
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Section Sub Wrapper */
+.section-sub-wrapper {
+  display: flex;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.section-sub-wrapper__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.section-sub-wrapper__item img {
+  width: 100%;
+}
+
+/* Hero Image */
+.hero-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/digital-marketing-1433427_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 55vh;
+  text-align: center;
+}
+
+.hero-img__header {
+  font-size: 3rem;
+  color: white;
+}
+
+.hero-img__txt {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.hero-img__btn {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Testimony */
+.testimony-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0.2rem solid gray;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  margin: 1rem;
+  width: calc(50% - 2rem);
+}
+
+.testimony__img {
+  border-radius: 50%;
+  background-color: gray;
+  width: 8rem;
+  height: 8rem;
+}
+
+.testimony__rating {
+  color: green;
+}
+
+.testimony__msg {
+  text-align: justify;
+}
+
+/* --------------------- Util ------------------- */
+
+/* This class is used to hide things. */
+.hidden {
+  display: none;
+}
+
+/* Set to Middle */
+.--set-to-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+/* CU Marketing Services */
+.shake-up-down {
+  animation: shake-up-down 0.5s alternate infinite;
+}
+@keyframes shake-up-down {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(25%);
+  }
+}

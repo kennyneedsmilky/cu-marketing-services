@@ -1,0 +1,62 @@
+/* CU Marketing Services */
+
+@media only screen and (max-width: 800px) {
+  /* header */
+  .header__title {
+    font-size: 1.5rem;
+  }
+
+  .header__nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 0;
+    text-align: center;
+  }
+
+  /* Page Section */
+  .page-section {
+    width: 100%;
+  }
+
+  /* Section Sub Wrapper */
+  .section-sub-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .--column-reverse-m {
+    flex-direction: column-reverse;
+  }
+
+  .section-sub-wrapper__item {
+    width: 100%;
+  }
+
+  /* Hero Image */
+  .hero-img__header {
+    display: none;
+  }
+
+  .hero-img__txt {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .hero-img__btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  /* Testimony */
+  .testimony-box {
+    flex-direction: column;
+  }
+
+  .testimony {
+    width: calc(100% - 2rem);
+  }
+}
