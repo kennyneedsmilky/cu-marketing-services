@@ -10,3 +10,27 @@
     transform: translateY(25%);
   }
 }
+
+.open-menu {
+  animation: open-menu 0.25s forwards;
+}
+@keyframes open-menu {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 50vh;
+  }
+}
+
+.close-menu {
+  animation: close-menu 0.25s forwards;
+}
+@keyframes close-menu {
+  0% {
+    height: 50vh;
+  }
+  100% {
+    height: 0;
+  }
+}

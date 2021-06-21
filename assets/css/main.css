@@ -34,9 +34,15 @@ a {
 }
 
 a:hover,
-a:active {
+a:active,
+a.active {
   color: #90ee90;
   text-decoration: underline;
+}
+
+a.active {
+  color: #90ee90;
+  text-decoration: none;
 }
 
 button {
@@ -74,6 +80,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  position: relative;
   padding: 0.5rem;
   background-color: #000000;
   width: 100%;
@@ -112,6 +119,34 @@ body {
 
 .header__link {
   color: #f5f5f5;
+}
+
+.header__menu-btn {
+  display: none;
+  border-radius: 0.25rem;
+}
+
+.header__menu-btn.active {
+  transform: rotate(45deg);
+}
+
+.header__menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  z-index: 100;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: #000000;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.header__menu a {
+  font-size: 1.25rem;
 }
 
 /* Main */
