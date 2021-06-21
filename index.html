@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
         <!-- JS -->
         <script defer src="assets/js/client-ratings.js"></script>
+        <script defer src="assets/js/blog.js"></script>
         <script defer src="assets/js/main.js"></script>
         <!-- FavIcon -->
         <link rel="shortcut icon" href="#">
@@ -26,18 +27,18 @@
             <div class="header__content-wrapper">
                 <h1 class="header__title">CU MARKETING SERVICES</h1>
                 <nav class="header__nav">
-                    <a class="header__link active" href="#">HOME</a>
-                    <a class="header__link" href="#">SERVICES</a>
-                    <a class="header__link" href="#">BLOG</a>
-                    <a class="header__link" href="#">CONTACT US</a>
+                    <a class="header__link active" href="#"  data-page-id="home">HOME</a>
+                    <a class="header__link" href="#" data-page-id="services">SERVICES</a>
+                    <a class="header__link" href="#" data-page-id="blog">BLOG</a>
+                    <a class="header__link" href="#" data-page-id="contact-us">CONTACT US</a>
                 </nav>
                 <button class="header__menu-btn"><i class="fas fa-bars"></i></button>
                 <!-- Header Menu -->
                 <div class="header__menu hidden open-menu">
-                    <a class="header__link active" href="#">HOME</a>
-                    <a class="header__link" href="#">SERVICES</a>
-                    <a class="header__link" href="#">BLOG</a>
-                    <a class="header__link" href="#">CONTACT US</a>
+                    <a class="header__link active" href="#" data-page-id="home">HOME</a>
+                    <a class="header__link" href="#" data-page-id="services">SERVICES</a>
+                    <a class="header__link" href="#" data-page-id="blog">BLOG</a>
+                    <a class="header__link" href="#" data-page-id="contact-us">CONTACT US</a>
                 </div>
             </div>
         </header>
@@ -92,6 +93,32 @@
                 <!-- Page Section-->
                 <section class="page-section">
                     <h2>Services</h2>
+                </section>
+            </section>
+
+            <!-- Page--Blog -->
+            <section class="page hidden" data-page-id="blog">
+                <!-- Hero Image -->
+                <div class="hero-img" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/writing-336370_1280.jpg');">
+                    <h2 class="hero-img__generic-title">CU Blog</h2>
+                    <p class="hero-img__txt">CU Marketing Services Blog Center</p>
+                </div>
+                <!-- Page Section-->
+                <section class="page-section">
+                    <h2>Recent Blogs</h2>
+                </section>
+                <!-- Page Section-->
+                <section class="page-section">
+                    <!-- Blogs -->
+                    <div class="blog-container"></div>
+                </section>
+            </section>
+
+            <!-- Page--Contact-Us -->
+            <section class="page hidden" data-page-id="contact-us">
+                <!-- Page Section-->
+                <section class="page-section">
+                    <h2>Contact Us</h2>
                 </section>
             </section>
 
