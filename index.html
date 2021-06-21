@@ -99,7 +99,7 @@
                 <section class="page-section">
                     <h2>Services</h2>
                     <p>CU Marketing Services provides your all-in-one solution to all of your marketing and branding needs.</p>
-                    <p>Choose A Service Below To Request A Free Consultation!</p>
+                    <h3>Choose A Service Below To Request A Free Consultation!</h3>
                     <!-- Section Sub Wrapper -->
                     <div class="section-sub-wrapper --column-reverse-m">
                         <div class="section-sub-wrapper__item">
@@ -197,9 +197,25 @@
 
             <!-- Page--Contact-Us -->
             <section class="page hidden" data-page-id="contact-us">
+                <!-- Hero Image -->
+                <div class="hero-img" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/contact-us-4193523_1280.jpg');">
+                    <h2 class="hero-img__generic-title">Contact Us</h2>
+                    <p class="hero-img__txt">It's the right thing to do.</p>
+                </div>
                 <!-- Page Section-->
-                <section class="page-section">
-                    <h2>Contact Us</h2>
+                <section class="page-section --set-to-middle">
+                    <h2>Have Questions?</h2>
+                    <p class="announce">Our team of experts are pleased and ready to assist you!</p>
+                    <!-- Contact Us Form -->
+                    <form class="contact-us-form" action="https://formspree.io/f/mjvjrdlr" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="ex: jondoe@gmail.com" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="ex: I would like more information about..." required></textarea>
+                        <button class="submit">Submit</button>
+                    </form>
                 </section>
             </section>
 

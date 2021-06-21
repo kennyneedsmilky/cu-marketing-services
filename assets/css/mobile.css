@@ -1,6 +1,11 @@
 /* CU Marketing Services */
 
 @media only screen and (max-width: 800px) {
+  /* BODY */
+  body {
+    font-size: 1rem;
+  }
+
   /* header */
   .header__content-wrapper {
     width: 100%;
@@ -9,7 +14,7 @@
   .header__title {
     justify-content: center;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .header__nav {
@@ -77,6 +82,10 @@
   /* Blog */
   .blog {
     width: calc(100% - 2rem);
+  }
+
+  .submit {
+    width: 40%;
   }
 
   /* This class is used to hide things. */

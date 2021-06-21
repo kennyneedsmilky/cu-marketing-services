@@ -73,6 +73,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   height: 100vh;
+  font-size: 1.2rem;
   color: #000000;
 }
 
@@ -302,6 +303,49 @@ body {
 .blog__title {
   text-align: center;
   pointer-events: none;
+}
+
+.announce {
+  text-align: center;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  background-color: #21b46f;
+  box-shadow: 3px 3px 3px #00000080;
+  margin: 0.5rem;
+  width: calc(100% - 1rem);
+  max-width: 500px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-us-form input,
+label,
+textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+label {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+textarea {
+  min-height: 10rem;
+}
+
+.submit {
+  width: 30%;
 }
 
 /* --------------------- Util ------------------- */
