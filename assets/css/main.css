@@ -185,6 +185,7 @@ body {
 .phone-btn {
   background-color: #21b46f;
   color: #ffffff;
+  transform: translateX(-100%);
   cursor: pointer;
 }
 

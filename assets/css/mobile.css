@@ -51,9 +51,11 @@
 
   .phone-btn {
     background-color: #21b46f;
-    color: #ffffff;
-    width: 12rem;
+    width: 9rem;
     height: 0.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    transform: translateX(-25%);
     cursor: pointer;
   }
 
