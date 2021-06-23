@@ -9,6 +9,7 @@ const menu = document.querySelector(".header__menu"); // Menu
 const heroImgBtn = document.querySelector(".hero-img__btn"); // Hero Image Button
 const pages = document.querySelectorAll(".page"); // Pages
 const phoneBtn = document.querySelector(".phone-btn"); // Phone Button
+const serviceInfoBtns = document.querySelectorAll(".section-sub-wrapper__item.--info");
 
 /* ***** Event Handlers */
 /* ***** */
@@ -33,6 +34,13 @@ heroImgBtn.addEventListener("click", () => {
 // Phone Button
 phoneBtn.addEventListener("click", () => {
     callCompany();
+})
+
+// Service Info Btns
+serviceInfoBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+        window.open("mainto:info@cumarketingservices.com");
+    })
 })
 
 /* ***** Functions */

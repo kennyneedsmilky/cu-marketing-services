@@ -114,4 +114,8 @@
   .hidden {
     display: none;
   }
+
+  .--info {
+    margin: 0.5rem 0;
+  }
 }
