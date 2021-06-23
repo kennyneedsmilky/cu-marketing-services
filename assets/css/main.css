@@ -367,6 +367,11 @@ textarea {
   width: 30%;
 }
 
+/* Services Page */
+.--services-page {
+  text-align: center;
+}
+
 /* --------------------- Util ------------------- */
 
 /* This class is used to hide things. */
