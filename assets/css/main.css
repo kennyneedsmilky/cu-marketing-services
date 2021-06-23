@@ -372,6 +372,10 @@ textarea {
   text-align: center;
 }
 
+.services__special-msg {
+  margin-bottom: 2rem;
+}
+
 /* --------------------- Util ------------------- */
 
 /* This class is used to hide things. */
