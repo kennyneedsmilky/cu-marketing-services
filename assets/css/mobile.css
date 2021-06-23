@@ -92,12 +92,13 @@
   }
 
   /* Testimony */
-  .testimony-box {
-    flex-direction: column;
+  .testimony,
+  .last-testimony {
+    min-width: calc(100% - 2rem);
   }
 
-  .testimony {
-    width: calc(100% - 2rem);
+  .testimony-box__btn {
+    display: block;
   }
 
   /* Blog */

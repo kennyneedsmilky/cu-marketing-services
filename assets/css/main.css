@@ -255,25 +255,58 @@ body {
 }
 
 /* Testimony */
-.testimony-box {
+.page-section.--testimony {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.testimony-content {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.testimony-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
   width: 100%;
 }
 
-.testimony {
+.testimony,
+.last-testimony {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0.5rem;
   border: 0.2rem solid gray;
   border-radius: 0.5rem;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   margin: 1rem;
-  width: calc(50% - 2rem);
+  min-width: calc(50% - 2rem);
+  min-height: 475px;
+}
+
+.testimony-box__btn {
+  display: none;
+  position: absolute;
+  top: 30%;
+  z-index: 777;
+  width: 3.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.testimony-box__btn.--left {
+  left: 0;
+}
+
+.testimony-box__btn.--right {
+  right: 0;
 }
 
 .testimony__img {
