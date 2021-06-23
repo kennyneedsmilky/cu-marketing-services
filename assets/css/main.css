@@ -165,9 +165,27 @@ body {
 
 /* Footer */
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #90ee90;
   padding: 0.5rem;
   width: 100%;
+}
+
+.footer__title {
+  display: flex;
+}
+
+.footer__title h3 {
+  padding: 0;
+  margin: 0 0.2rem;
+}
+
+.phone-btn {
+  background-color: #21b46f;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 /* Page */

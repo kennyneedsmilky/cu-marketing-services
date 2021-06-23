@@ -8,6 +8,7 @@ const menuBtn = document.querySelector(".header__menu-btn"); // Menu Button
 const menu = document.querySelector(".header__menu"); // Menu
 const heroImgBtn = document.querySelector(".hero-img__btn"); // Hero Image Button
 const pages = document.querySelectorAll(".page"); // Pages
+const phoneBtn = document.querySelector(".phone-btn"); // Phone Button
 
 /* ***** Event Handlers */
 /* ***** */
@@ -27,6 +28,11 @@ menuBtn.addEventListener("click", () => {
 // Hero Image Button
 heroImgBtn.addEventListener("click", () => {
     goToWhyChooseUs();
+})
+
+// Phone Button
+phoneBtn.addEventListener("click", () => {
+    callCompany();
 })
 
 /* ***** Functions */
@@ -84,4 +90,9 @@ function closeMenu() {
 // Go to "Why Choose Us".
 function goToWhyChooseUs() {
   window.location = "#why-choose-us";  
+}
+
+// Call Company
+function callCompany() {
+    window.open("tel:8175359080");
 }
